@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		79200616243C7AE60032BD70 /* Newspaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Newspaper.jpg; path = "../../../Harry Potter/Newspaper.jpg"; sourceTree = "<group>"; };
+		79200619243C89200032BD70 /* Newspaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Newspaper.jpg; sourceTree = "<group>"; };
 		792977D12422A4BE004D4B13 /* MagicPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792977D42422A4BE004D4B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		792977D62422A4BE004D4B13 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -41,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79200618243C89200032BD70 /* ImageFile */ = {
+			isa = PBXGroup;
+			children = (
+				79200619243C89200032BD70 /* Newspaper.jpg */,
+			);
+			path = ImageFile;
+			sourceTree = "<group>";
+		};
 		792977C82422A4BE004D4B13 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +75,7 @@
 				792977D82422A4BE004D4B13 /* ViewController.swift */,
 				792977DA2422A4BE004D4B13 /* Main.storyboard */,
 				792977DD2422A4C3004D4B13 /* Assets.xcassets */,
+				79200618243C89200032BD70 /* ImageFile */,
 				79200616243C7AE60032BD70 /* Newspaper.jpg */,
 				792977DF2422A4C3004D4B13 /* LaunchScreen.storyboard */,
 				792977E22422A4C3004D4B13 /* Info.plist */,
